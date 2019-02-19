@@ -19,6 +19,10 @@ Or install it yourself as:
 
     $ gem install solidus_connectif
 
+And config ENV variable:
+```ruby
+		connectif_token: 'YOUR_CONNECTIF_TOKEN'
+```
 ## Usage
 
 This gem permite to conect your solidus e-commerce with Connectif to send events and recive actions to display like (banners, modals,...). Make your workflows in connectif and enjoy it!.
