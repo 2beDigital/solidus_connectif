@@ -21,7 +21,7 @@ Or install it yourself as:
 
 And config ENV variable:
 ```ruby
-		connectif_token: 'YOUR_CONNECTIF_TOKEN'
+connectif_token: 'YOUR_CONNECTIF_TOKEN'
 ```
 ## Usage
 

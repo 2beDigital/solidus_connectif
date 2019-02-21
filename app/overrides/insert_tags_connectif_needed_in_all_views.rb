@@ -29,7 +29,13 @@ Deface::Override.new(virtual_path: "spree/layouts/spree_application",
 					 disabled: false)
 
 Deface::Override.new(virtual_path: "spree/layouts/spree_application",
-					 name: "connectif_banner",
+					 name: "connectif_banner_top",
+					 insert_top: "body",
+					 text:'<div class="cn_banner_placeholder" id="banner-top"></div>',
+					 disabled: false)
+
+Deface::Override.new(virtual_path: "spree/layouts/spree_application",
+					 name: "connectif_banner_bottom",
 					 insert_bottom: "body",
-					 partial: "spree/shared/connectif_banner",
+					 text:'<div class="cn_banner_placeholder" id="banner-bottom"></div>',
 					 disabled: false)
